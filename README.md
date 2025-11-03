@@ -72,4 +72,4 @@ Data Cleaning & Transformation: Power Query / DAX
 
 Dataset: Insurance Claims & Policyholder Data
 
-img link - https://github.com/Jeniltank/Insurances-Claims-Policyholder-Risk-Analysis-Dashbord/blob/main/data.png
+img link - (https://github.com/Jeniltank/Insurances-Claims-Policyholder-Risk-Analysis-Dashbord/blob/main/data.png)
