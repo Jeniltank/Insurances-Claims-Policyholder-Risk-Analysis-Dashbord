@@ -1,75 +1,125 @@
-🧾 Insurance Claims & Policyholder Risk Analysis Dashboard
+# 🧾 Insurance Claims & Policyholder Risk Analysis Dashboard
 
-This Power BI dashboard provides a comprehensive analysis of insurance claims and policyholder risk patterns. It helps insurance analysts and decision-makers understand claim distributions, regional risks, and customer behavior across various segments.
+A dynamic and insight-driven **Power BI dashboard** designed to analyze insurance claims and uncover policyholder risk patterns. This solution empowers insurance analysts, underwriters, and decision-makers to make informed, data-backed decisions by visualizing key trends across demographics, regions, and policy types.
 
-📊 Key Insights:
+---
 
-Total Claims: 4,972
+## 📊 Key Metrics Overview
 
-Average Claims: 0.50
+* **Total Claims:** 4,972
+* **Average Claims per Policyholder:** 0.50
+* **Total Claims Adjustment:** 36.78
+* **Total Policyholders (Index Count):** 10,000
 
-Total Claims Adjustment: 36.78
+---
 
-Total Policyholders (Index Count): 10K
+## 🔍 Visual Insights & Analysis
 
-🔍 Visual Analysis:
+### 📉 Claims Severity Distribution
 
-Claims Severity Distribution:
+* **Low Severity:** 35M
+* **Medium Severity:** 10M
+* **High Severity:** 5M
 
-Low: 35M | Medium: 10M | High: 5M
+➡️ The majority of claims fall under **low severity**, indicating a lower overall financial risk but higher frequency of minor claims.
 
-Majority of claims are classified as low severity.
+---
 
-Regional Distribution of Claims:
+### 🌍 Regional Distribution of Claims
 
-Urban: 25M | Suburban: 15M | Rural: 10M
+* **Urban:** 25M
+* **Suburban:** 15M
+* **Rural:** 10M
 
-Urban regions have the highest claim frequency.
+➡️ **Urban areas** show the highest concentration of claims, suggesting increased exposure due to higher population density and activity levels.
 
-Claims Frequency vs Premium Amount:
+---
 
-Scatter plot showing the correlation between claim frequency and premium cost.
+### 📈 Claims Frequency vs Premium Amount
 
-Higher frequency tends to result in increased premium amounts.
+* A scatter plot highlights the relationship between **claim frequency** and **premium cost**
+* Clear positive correlation:
 
-Age and Claims Severity Analysis:
+  * Higher claim frequency → Higher premium pricing
 
-Younger policyholders (ages 20–40) contribute to a higher claim volume.
+➡️ Useful for refining **risk-based pricing strategies**.
 
-Severity of claims decreases with age.
+---
 
-Claims Severity by Region:
+### 👥 Age vs Claims Severity Analysis
 
-Urban: 70.39% Low | 19.89% Medium | 9.72% High
+* Policyholders aged **20–40** contribute the highest claim volume
+* **Claim severity tends to decrease with age**
 
-Similar claim severity pattern across all regions.
+➡️ Younger customers represent a **higher risk segment**, particularly for frequent claims.
 
-⚙️ Filters & Segmentation:
+---
 
-Policy Type: Full Coverage | Liability Only
+### 🧮 Claims Severity by Region
 
-Region: Rural | Suburban | Urban
+| Region   | Low Severity                    | Medium Severity | High Severity |
+| -------- | ------------------------------- | --------------- | ------------- |
+| Urban    | 70.39%                          | 19.89%          | 9.72%         |
+| Suburban | Similar trend across categories |                 |               |
+| Rural    | Similar trend across categories |                 |               |
 
-Source of Lead: Agent | Online | Referral
+➡️ Claim severity patterns remain **consistent across regions**, with low severity dominating.
 
-Marital Status: Divorced | Single | Married | Widowed
+---
 
-🎯 Purpose:
+## ⚙️ Filters & Segmentation
 
-This dashboard is designed to:
+The dashboard includes interactive filters to drill down into specific segments:
 
-Identify risk exposure based on region and policyholder demographics.
+* **Policy Type:** Full Coverage | Liability Only
+* **Region:** Urban | Suburban | Rural
+* **Lead Source:** Agent | Online | Referral
+* **Marital Status:** Single | Married | Divorced | Widowed
 
-Support data-driven underwriting and pricing decisions.
+➡️ Enables targeted analysis for **customer segmentation and behavioral insights**.
 
-Enable strategic focus on customer segments with higher claim rates.
+---
 
-🛠️ Tools Used:
+## 🎯 Business Objectives
 
-Power BI for visualization
+This dashboard is built to:
 
-Data Cleaning & Transformation: Power Query / DAX
+* Identify **high-risk regions and customer segments**
+* Support **data-driven underwriting and premium pricing**
+* Optimize **risk management strategies**
+* Enhance **decision-making with visual analytics**
 
-Dataset: Insurance Claims & Policyholder Data
+---
 
-img link - (https://github.com/Jeniltank/Insurances-Claims-Policyholder-Risk-Analysis-Dashbord/blob/main/data.png)
+## 🛠️ Tools & Technologies
+
+* **Power BI** – Data visualization and dashboard development
+* **Power Query** – Data cleaning and transformation
+* **DAX (Data Analysis Expressions)** – Advanced calculations and metrics
+* **Dataset:** Insurance Claims & Policyholder Data
+
+---
+
+🔗 View Dashboard Image:
+## 🖼️ Dashboard Preview
+
+![Insurance Dashboard](https://github.com/Jeniltank/Insurances-Claims-Policyholder-Risk-Analysis-Dashbord/blob/main/data.png)
+
+---
+
+## 💡 Key Takeaways
+
+* **Low severity claims dominate**, but high-frequency segments still drive cost
+* **Urban regions** present the highest claim exposure
+* **Younger policyholders** are more likely to file claims
+* Strong correlation between **claims frequency and premium pricing**
+
+---
+
+## 🚀 Conclusion
+
+This dashboard transforms raw insurance data into actionable insights, enabling organizations to proactively manage risk, refine pricing strategies, and better understand customer behavior.
+
+---
+
+**Built for smarter insurance decisions through data.**
